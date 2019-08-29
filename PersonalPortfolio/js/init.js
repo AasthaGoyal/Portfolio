@@ -236,35 +236,35 @@ perker_appear();
 		
 	var mainPreloader	 = $(".perker_loader-wrapper .loader");
 	var WinWidth 		 = $(window).width();
-    var WinHeight		 = $(window).height();
-    var zero = 0;
+	var WinHeight		 = $(window).height();
+	var zero = 0;
 
-    mainPreloader.css({
-        top: WinHeight / 2 - 2.5,
-        left: WinWidth / 2 - 200
-    });
+	mainPreloader.css({
+		top: WinHeight / 2 - 2.5,
+		left: WinWidth / 2 - 200
+	});
 
-    do {
-        mainPreloader.animate({
-            width: zero
-        }, 10);
-        zero += 3;
-    } while (zero <= 400);
-    if (zero === 402) {
-        mainPreloader.animate({
-            left: 0,
-            width: '100%'
-        });
-        mainPreloader.animate({
-            top: '0',
-            height: '100vh'
-        });
-    }
+	do {
+		mainPreloader.animate({
+			width: zero
+		}, 10);
+		zero += 3;
+	} while (zero <= 400);
+	if (zero === 402) {
+		mainPreloader.animate({
+			left: 0,
+			width: '100%'
+		});
+		mainPreloader.animate({
+			top: '0',
+			height: '100vh'
+		});
+	}
 		
-    setTimeout(function() {
-        $(".perker_loader-wrapper").fadeOut('fast');
-        (mainPreloader).fadeOut('fast');
-    }, 4500);
+	setTimeout(function() {
+		$(".perker_loader-wrapper").fadeOut('fast');
+		(mainPreloader).fadeOut('fast');
+	}, 4500);
 }
 	jQuery(window).on('scroll',function(){
 		perker_hero_effect();

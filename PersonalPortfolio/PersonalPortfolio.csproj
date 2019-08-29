@@ -77,10 +77,16 @@
     <Content Include="img\about\4.jpg" />
     <Content Include="img\about\5.jpg" />
     <Content Include="img\about\550x650.jpg" />
+    <Content Include="img\about\degree.jpg" />
+    <Content Include="img\about\myphoto.jpg" />
+    <Content Include="img\about\school.jpg" />
+    <Content Include="img\about\school.png" />
+    <Content Include="img\about\slideshow.jpg" />
     <Content Include="img\blog\1.jpg" />
     <Content Include="img\blog\2.jpg" />
     <Content Include="img\blog\3.jpg" />
     <Content Include="img\blog\500x350.jpg" />
+    <Content Include="img\blog\inspiration.png" />
     <Content Include="img\hero\1.jpg" />
     <Content Include="img\logo\logo.png" />
     <Content Include="img\logo\logoo.png" />
@@ -109,6 +115,7 @@
     <Content Include="img\svg\edit-pencil-symbol.svg" />
     <Content Include="img\svg\envelope.svg" />
     <Content Include="img\svg\fire.svg" />
+    <Content Include="img\svg\github.png" />
     <Content Include="img\svg\google-glass-logo.svg" />
     <Content Include="img\svg\html.svg" />
     <Content Include="img\svg\icon.svg" />
@@ -116,8 +123,10 @@
     <Content Include="img\svg\icon2.png" />
     <Content Include="img\svg\icon3.jpg" />
     <Content Include="img\svg\identification.svg" />
+    <Content Include="img\svg\inspiration.png" />
     <Content Include="img\svg\instagram.svg" />
     <Content Include="img\svg\layers.svg" />
+    <Content Include="img\svg\linkedin.png" />
     <Content Include="img\svg\new-tab.svg" />
     <Content Include="img\svg\phone-call.svg" />
     <Content Include="img\svg\placeholder.svg" />
@@ -153,6 +162,7 @@
     <Content Include="css\font\xcon.ttf" />
     <Content Include="css\font\xcon.woff" />
     <Content Include="css\font\xcon.woff2" />
+    <Content Include="data\AashiCV.pdf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
