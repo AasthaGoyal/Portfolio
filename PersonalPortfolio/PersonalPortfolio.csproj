@@ -71,7 +71,7 @@
     <Content Include="css\plugins.css" />
     <Content Include="css\responsive.css" />
     <Content Include="css\style.css" />
-    <Content Include="Default.aspx" />
+    <Content Include="index.aspx" />
     <Content Include="img\about\1.jpg" />
     <Content Include="img\about\3.jpg" />
     <Content Include="img\about\4.jpg" />
@@ -148,12 +148,12 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
