@@ -71,7 +71,7 @@
     <Content Include="css\plugins.css" />
     <Content Include="css\responsive.css" />
     <Content Include="css\style.css" />
-    <Content Include="index.aspx" />
+    <Content Include="default.aspx" />
     <Content Include="img\about\1.jpg" />
     <Content Include="img\about\3.jpg" />
     <Content Include="img\about\4.jpg" />
@@ -79,6 +79,7 @@
     <Content Include="img\about\550x650.jpg" />
     <Content Include="img\about\degree.jpg" />
     <Content Include="img\about\myphoto.jpg" />
+    <Content Include="img\about\profilePhoto.jpg" />
     <Content Include="img\about\school.jpg" />
     <Content Include="img\about\school.png" />
     <Content Include="img\about\slideshow.jpg" />
@@ -148,12 +149,12 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="index.aspx.cs">
-      <DependentUpon>index.aspx</DependentUpon>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="index.aspx.designer.cs">
-      <DependentUpon>index.aspx</DependentUpon>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -164,6 +165,7 @@
     <Content Include="css\font\xcon.woff2" />
     <Content Include="data\AashiCV.pdf" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\AasthaGoyal - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
