@@ -58,8 +58,8 @@ namespace PersonalPortfolio
         {
             Response.Clear();
             Response.ContentType = "application/octect-stream";
-            Response.AppendHeader("content-disposition", "filename=AashiCV.pdf");
-            Response.TransmitFile(Server.MapPath("~/Data/AashiCV.pdf"));
+            Response.AppendHeader("content-disposition", "filename=AasthaCV.docx");
+            Response.TransmitFile(Server.MapPath("~/Data/AasthaCV.docx"));
             Response.End();
         }
     }
