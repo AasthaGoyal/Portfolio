@@ -105,8 +105,8 @@ C:\Users\Aastha Goyal\Portfolio\PersonalPortfolio\bin\roslyn\VBCSCompiler.exe
 C:\Users\Aastha Goyal\Portfolio\PersonalPortfolio\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Aastha Goyal\Portfolio\PersonalPortfolio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Aastha Goyal\Portfolio\PersonalPortfolio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Aastha Goyal\Portfolio\PersonalPortfolio\obj\Debug\PersonalPortfolio.csprojAssemblyReference.cache
 C:\Users\Aastha Goyal\Portfolio\PersonalPortfolio\obj\Debug\PersonalPortfolio.csproj.CoreCompileInputs.cache
 C:\Users\Aastha Goyal\Portfolio\PersonalPortfolio\obj\Debug\PersonalPortfolio.csproj.CopyComplete
 C:\Users\Aastha Goyal\Portfolio\PersonalPortfolio\obj\Debug\PersonalPortfolio.dll
 C:\Users\Aastha Goyal\Portfolio\PersonalPortfolio\obj\Debug\PersonalPortfolio.pdb
+C:\Users\Aastha Goyal\Portfolio\PersonalPortfolio\obj\Debug\PersonalPortfolio.csproj.AssemblyReference.cache

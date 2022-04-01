@@ -88,13 +88,13 @@
 		
 		<!-- Hero -->
 		<div class="perker_section" id="home">
-			<div class="perker_hero_wrap" data-img-url="img/about/slideshow.jpg">
+			<div class="perker_hero_wrap" data-img-url="img/about/wallpaper.jpg">
 				<div id="particles-js"></div>
 				<div class="overlay"></div>
 				<div class="container">
 					<div class="hero_texts">
 						<h3 class="name">Aastha Goyal</h3>
-						<span class="subtitle">Software Engineer based in Auckland, New Zealand</span>
+						<span class="subtitle">Integration Technology Developer based in Auckland, New Zealand</span>
 					</div>
 					<div class="perker_down">
 						<div class="line_wrapper">
@@ -113,8 +113,8 @@
 					<div class="about_inner">
 						<div class="leftpart">
 							<div class="image">
-								<img src="img/about/myphoto.jpg" alt="" />
-								<div class="main" data-img-url="img/about/myphoto.jpg"></div>
+								<img src="img/about/me.jpg" alt="" />
+								<div class="main" data-img-url="img/about/me.jpg"></div>
 							</div>
 						</div>
 						<div class="rightpart">
@@ -123,8 +123,8 @@
 								<h3>Hello! I am <span>Aastha Goyal (Ashi)</span></h3>
 							</div>
 							<div class="text">
-								<p>I’m a web and android application developer based in Auckland, New Zealand. I finished my Bachelors in IT, specializing in Software Development in 2019. I specialize in creating .NET web applications for startup company looking for their very first online presence in New Zealand. </p>
-								<p>I’m extremely entrilled with programming and the idea of creating different solutions in terms of Saas or Paas that solve real-life problems and create an impact in people's lives. Also, I love to read books, mostly sci-fi ficton and mystery novels along with Football and Taekwondo.</p>
+								<p> Integration Software Developer skilled at application development, testing and deployment. Experienced working in Agile team and working at coordinating ground-up planning, programming, and implementation for core modules. I am keen to evolve these skills to work on more challenging projects along with getting involved in deployments and performing unit/integration tests.</p>
+								<p> I am moving towards learning more DevOps related tecgnologies like Kafka and Spring boot to build real-time applications and technologies like Docker and Kubernestes for containerization and deployment. I love reading novels and always up to give some real good book suggestions.</p>
 							</div>
 							<div class="info_list">
 								<ul>
@@ -132,7 +132,7 @@
 									<li><p><span class="left">Birthday:</span><span class="right">04.12.1997</span></p></li>
 									<li><p><span class="left">From:</span><span class="right">Auckland, New Zealand</span></p></li>
 									<li><p><span class="left">Phone:</span><span class="right">+64 02108623321</span></p></li>
-									<li><p><span class="left">Post:</span><span class="right">Software Engineer</span></p></li>
+									<li><p><span class="left">Post:</span><span class="right">Integration Technology Developer</span></p></li>
 									<li><p><span class="left">Email:</span><span class="right"><a href="#">aastha2150@gmail.com</a></span></p></li>
 								</ul>
 							</div>
@@ -147,51 +147,60 @@
 		</div>
 		<!-- /About -->
 		
-		<!-- Services -->
 		<div class="perker_section" id="knowledge">
 			<div class="perker_services_wrap">
 				<div class="container">
 					<div class="perker_title_holder">
-						<span class="title">My Knowledge</span>
+						<span class="title">Hobbies and Interests</span>
 						<h3>Fields of Interests</h3>
 					</div>
 					<div class="service_list perker_appear">
 						<ul>
 							<li>
-								<div class="inner">
-									<img class="svg" src="img/svg/icon1.png" alt="" />
-									<h3 class="title">.NET Web applications</h3>
-									<p class="text">I develop .NET web applications with complete data handling and error handling. </p>
-									<a class="link" href="#"></a>
-									<br />
-									<br />
+								<div class="inner" style="height:170px; width:300px">
+									<img class="svg" src="img/about/books.png" alt="" />
+									<h3 class="title">Reading Novels</h3>
 								</div>
 							</li>
-							<li>
-								<div class="inner">
-									<img class="svg" src="img/svg/icon2.png" alt="" />
-									<h3 class="title">Android Mobile application</h3>
-									<p class="text">Android mobile apps so your users can access real-time information about your company whenever they want.
-									</p>
-									<a class="link" href="#"></a>
+                            <li>
+								<div class="inner" style="height:170px; width:300px">
+									<img class="svg" src="img/about/origami.png" alt="" />
+									<h3 class="title">Origami</h3>
 								</div>
 							</li>
-							<li>
-								<div class="inner">
-									<img class="svg" src="img/svg/icon3.jpg" alt="" />
-									<h3 class="title">Project Management</h3>
-									<p class="text">Everything from gathering requiremnts to creating a project plan to finally deploying the application to the client.</p>
-									<a class="link" href="#"></a>
-									<br />
+                            <li>
+								<div class="inner" style="height:170px; width:300px">
+									<img class="svg" src="img/about/football.png" alt="" />
+									<h3 class="title">Football</h3>
 								</div>
 							</li>
+                            <li>
+								<div class="inner" style="height:170px; width:300px">
+									<img class="svg" src="img/about/karate.png" alt="" />
+									<h3 class="title">Taewendo</h3>
+								</div>
+							</li>
+                            <li>
+								<div class="inner" style="height:170px; width:300px">
+									<img class="svg" src="img/about/painting.png" alt="" />
+									<h3 class="title">Sketching & Painting</h3>
+								</div>
+							</li>
+                               <li>
+								<div class="inner" style="height:170px; width:300px">
+									<img class="svg" src="img/about/puzzle.png" alt="" />
+									<h3 class="title">Solving Puzzles</h3>
+								</div>
+							</li>
+							
 							
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- /Services -->
+		<!-- /Interests -->
+
 		
 			<!-- Team -->
 		<div class="perker_section" id="portfolio">
@@ -203,6 +212,66 @@
 					</div>
 					<div class="team_list perker_appear">
 						<ul>
+							 <li>
+								<div class="inner">
+									<div class="image">
+										<img src="img/portfolio/travel.jpg" alt="" />
+										<div class="main" data-img-url="img/portfolio/travel.jpg"></div>
+									</div>
+									<div class="texts">
+										<center>
+										<h3>Dream Travel</h3>
+										<span>Website</span>
+										<p> A all-in-one travel application that generates an automatic itenary for your trip based on the destination, the duration of your trip and your budget. Also, it allows you to manage your bucketlist and flag places which have already been visited along with alaowing you to manage all your hotel and flight bookings from one platform along with tracking your budget.</p>
+										<br />
+									   
+
+								
+										<a href="/" style="font-weight:bold; color:lightseagreen; text-align:center "> View it on Github</a>
+											  </center>
+									</div>
+								</div>
+							</li>
+							 <li>
+								<div class="inner">
+									<div class="image">
+										<img src="img/portfolio/buddy.png" alt="" />
+										<div class="main" data-img-url="img/portfolio/buddy.png"></div>
+									</div>
+									<div class="texts">
+										<center>
+										<h3>Walk Buddy</h3>
+										<span>Website</span>
+										<p> Made to promote community safety by allowing people finishing work or classes late night to find a buddy to walk with to their final destination. To keep it safe, we used Auckland Transport API to give them a safe meeting point (preferably a bus stop). It also has emergency notification and sos services. </p>
+										<br />
+									   
+
+								
+										<a href="https://github.com/AasthaGoyal/WalkBuddy.git" style="font-weight:bold; color:lightseagreen; text-align:center "> View it on Github</a>
+											  </center>
+									</div>
+								</div>
+							</li>
+							 <li>
+								<div class="inner">
+									<div class="image">
+										<img src="img/portfolio/lunch.jpg" alt="" />
+										<div class="main" data-img-url="img/portfolio/lunch.jpg"></div>
+									</div>
+									<div class="texts">
+										<center>
+										<h3>Easy Health</h3>
+										<span>Website</span>
+										<p> A web application made for university students to manage their wallet and find healthy food that fits into their budget as well as fits their busy university timetable. Students set their dietary requirement and fav food cuisines and set a weekly wallet limit, which the app uses to calculate meals and suggest nearby rsetaurants. </p>
+										<br />
+									   
+											<br />
+								
+										<a href="https://github.com/AasthaGoyal/squirtlesquad.git" style="font-weight:bold; color:lightseagreen; text-align:center "> View it on Github</a>
+											  </center>
+									</div>
+								</div>
+							</li>
 							<li>
 								<div class="inner">
 									<div class="image">
@@ -345,14 +414,47 @@
 					<div class="resume_list perker_appear">
 						<ul>
 							<li>
-								<div class="inner">
-									<h3 class="year">March 2018 - Present</h3>
+								<div class="inner" style="height:464.8px; width:380.6px">
+									<h3 class="year">February 2021 - Current</h3>
+									<h3 class="title">Integration Technology Developer </h3>
+									<h4 class="about_title" style="font-weight:bold; color:lightseagreen">Integration Works</h4>
+									<p>Develop, test, and deploy integration solutions between different software applications and platforms and oversee operation tasks of taking care of customer issues and providing solution in real-time along with making sure that all the applications are up and running.</p>
+								</div>
+							</li>
+							<li>
+								<div class="inner" style="height:464.8px; width:380.6px">
+									<h3 class="year">November 2020 - February 2021</h3>
+									<h3 class="title">Integration Technology Developer Intern </h3>
+									<h4 class="about_title" style="font-weight:bold; color:lightseagreen">Integration Works</h4>
+									<p>Developing platform solutions that automate daily tasks like on-boarding a new client using technologies like Terraform, Docker and Kubernetes to make the processing of basic tasks faster and error free. Involves writing Terraform to automate tasks and using docker to spin up a deployment container along with all the dependencies.</p>	
+								</div>
+							</li>
+							<li>
+								<div class="inner" style="height:464.8px; width:380.6px">
+									<h3 class="year">February 2020 - April 2020</h3>
+									<h3 class="title">Graduate Software Engisneer </h3>
+									<h4 class="about_title" style="font-weight:bold; color:lightseagreen"> Orion Health</h4>
+									<p>Working as a Graduate is becoming more independent than as an intern and taking lead to solve the problems, facing deadlines keeping in mind the requirements of our customers. I became a better problem solver and got more confident in programming professionally for a real client product. </p>
+								</div>
+							</li>
+                            	
+						
+                            
+                             <li>
+								<div class="inner" style="height:464.8px; width:380.6px">
+									<h3 class="year">November 2019 - February 2020</h3>
+									<h3 class="title">Software Engineer Intern </h3>
+									<h4 class="about_title" style="font-weight:bold; color:lightseagreen"> Orion Health</h4>
+									<p>Working as a software engineer intern as part of Team Analytics I learned a number of new technologies and languages, and exciting new features that we used to create a extension of the ex-isting product along with learning a great deal about team collaboration and communication.</p>
+								</div>
+							</li>
+
+							<li>
+								<div class="inner" style="height:464.8px; width:380.6px">
+									<h3 class="year">March 2018 - November 2019</h3>
 									<h3 class="title">Bartender </h3>
 									<h4 class="about_title" style="font-weight:bold; color:lightseagreen"> The Thirsty Dogs</h4>
 									<p>Behind the bar bartender at Thirsty dogs taught me how to communicate and make new friends.</p>
-									<br />
-									<br />
-
 								</div>
 							</li>
 							 <li>
@@ -526,16 +628,19 @@
 										<p class="price">Basic</p>
 										<br />
 										<div class="perker_button">
-											<a href="#">Tableau </a>
-											<a href="#">Weka  </a>
+											<a href="#">Docker </a>
+											<a href="#">Kubernetes  </a>
 										  <br />
 											<br />
-											<a href="#">Python</a>
-											 <a href="#">SQLite</a>
+											<a href="#">Springboot</a>
+											 <a href="#">Kafka</a>
 									   <br />
 											<br />
-											 <a href="#">NoSQL</a>
+											 <a href="#">PHP</a>
 											<br />
+											<br />
+											<a href="#"> Tableau</a>
+											<a href="#"> Elastic Search</a>
 											<br />
 											<br />
 											<br />
@@ -552,20 +657,20 @@
 										<br />
 										
 										<div class="perker_button">
-											<a href="#">JSON</a>
-											<a href="#">web API</a>
+											<a href="#">React.JS</a>
+											<a href="#">Python</a>
 											<br />
 											<br />
-											<a href="#">Java</a>
-											 <a href="#">Git</a>
+											<a href="#">HTML</a>
+											 <a href="#">CSS</a>
 											<br />
 											<br />
-											 <a href="#">Bootstrap</a>
-											 <a href="#">PHP</a>
+											 <a href="#">C++</a>
+											 
 											<br />
 											<br />
-											 <a href="#">XAMPP</a>
-											 <a href="#">Postman</a>
+											 <a href="#">Kibana</a>
+											 <a href="#">Eclipse</a>
 										</div>
 										
 									</div>
@@ -581,18 +686,21 @@
 										<div class="perker_button">
 											<a href="#">.NET</a>
 											<a href="#">C#</a>
+											<br />
+											<br />
+										
+											<a href="#">AWS</a>
+											<a href="#">Java</a>
+											<br />
+											<br />
+											<a href="#">Node.JS</a>
 											<a href="#">MySQL</a>
-											<br />
-											<br />
-											<a href="#">HTML</a>
-											<a href="#">CSS</a>
-											<br />
-											<br />
-											<a href="#">JavaScript</a>
 										   <br />
 											<br />
+											<a href="#"> Postman</a>
+											<a href="#"> Github</a>
 											<br />
-											<br />
+										
 										</div>
 									</div>
 								</div>
@@ -603,6 +711,103 @@
 			</div>
 		</div>
 		<!-- /Pricing -->
+
+		<div class="perker_section" id="education">
+			<div class="perker_services_wrap">
+				<div class="container">
+					<div class="perker_title_holder">
+						<span class="title">Certifications</span>
+						<h3>Certifications and Achievements</h3>
+					</div>
+					<div class="service_list perker_appear">
+						<ul>
+							<li>
+								<div class="inner">
+									
+									<h3 class="title">Apache Kafka for Beginners</h3>
+								   
+									<h4 class="about_title" style="color:lightseagreen; font-weight:bold"> Udemy Certification</h4>
+								   
+								   
+								</div>
+							</li>
+							<li>
+								<div class="inner">
+									
+									<h3 class="title">Developing Kafka with Springboot</h3>
+								   
+									<h4 class="about_title" style="color:lightseagreen; font-weight:bold"> Udemy Certification</h4>
+								   
+								   
+								</div>
+							</li>
+						
+							<li>
+								<div class="inner">
+									
+									<h3 class="title">Python Essential Learning</h3>
+								   
+									<h4 class="about_title" style="color:lightseagreen; font-weight:bold"> LinkedIn Learning</h4>
+								   
+								   
+								</div>
+							</li>
+							<li>
+								<div class="inner">
+									
+									<h3 class="title">Using Python for Automation </h3>
+									<h4 class="about_title" style="color:lightseagreen; font-weight:bold"> LinkedIn Learning</h4>
+								   
+								</div>
+							</li>
+
+								<li>
+								<div class="inner">
+									
+									<h3 class="title">AWS Lambda  Functions </h3>
+									<h4 class="about_title" style="color:lightseagreen; font-weight:bold"> AWS Training and Certification</h4>
+								   <br />
+								</div>
+							</li>
+							<li>
+								<div class="inner">
+									
+									<h3 class="title">Amazon API Gateway for serverless applications  </h3>
+									<h4 class="about_title" style="color:lightseagreen; font-weight:bold"> AWS Training and Certification</h4>
+								   <br />
+								</div>
+							</li>
+							<li>
+								<div class="inner">
+									
+									<h3 class="title">AWS Foundations: Machine Learming basics </h3>
+									<h4 class="about_title" style="color:lightseagreen; font-weight:bold"> AWS Training and Certification</h4>
+								   
+								</div>
+							</li>
+							<li>
+								<div class="inner">
+									
+									<h3 class="title">Machine Learning Terminology and Process </h3>
+									<h4 class="about_title" style="color:lightseagreen; font-weight:bold"> AWS Training and Certification</h4>
+								   
+								</div>
+							</li>
+							<li>
+								<div class="inner">
+									
+									<h3 class="title">Machine learning in the cloud with AWS Batch</h3>
+									<h4 class="about_title" style="color:lightseagreen; font-weight:bold"> AWS Training and Certification</h4>
+								   
+								</div>
+							</li>
+							
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 		
 		<!-- News -->
 		<div class="perker_section" id="blog">
@@ -659,7 +864,7 @@
 								<li>
 									<div class="inner">
 										<img class="svg" src="img/svg/placeholder.svg" alt="" />
-										<span>28A Linwood avenue, Mount albert, Auckland 1025</span>
+										<span>34 White swan road, Mount Roskill, Auckland 1025</span>
 									</div>
 								</li>
 								<li>

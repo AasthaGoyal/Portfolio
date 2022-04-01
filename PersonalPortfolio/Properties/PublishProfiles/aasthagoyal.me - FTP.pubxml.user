@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAi7FAyLtZK0yw9AI929Pg/AAAAAACAAAAAAAQZgAAAAEAACAAAADGkmlKRl/wayslqytMRYvwS9S33eFfWPA5Izd8MACYxQAAAAAOgAAAAAIAACAAAAAfAv7VUrZgU9EQdPyy4FOG7L3oVc7zi4QkPcB8ybAn9SAAAACD0FrTCyeH+7lLz9ZV5719MNYrgzYlfmpGy4hhImqLvUAAAAC0XWpqd72MYO1bh98QCdmrzSnfYsMECT1n9pZwwuZhxhcha+5+JVIhQ2eaDta4hUk0CHfIkFjkjWdhHzX/gKOa</EncryptedPassword>
+    <_PublishTargetUrl>ftp://w29.winhost.com:21/aasthagoyal,me</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/PersonalPortfolio.dll">
+      <publishTime>01/30/2022 02:22:30</publishTime>
+    </File>
+    <File Include="bin/PersonalPortfolio.pdb">
+      <publishTime>01/30/2022 02:22:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="css/font/xcon.eot">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="css/font/xcon.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="css/font/xcon.ttf">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="css/font/xcon.woff">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="css/font/xcon.woff2">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="css/plugins.css">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="css/responsive.css">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="data/Aastha Resume.docx">
+      <publishTime>01/30/2022 01:31:23</publishTime>
+    </File>
+    <File Include="default.aspx">
+      <publishTime>01/30/2022 01:45:01</publishTime>
+    </File>
+    <File Include="img/about/1.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/about/3.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/about/4.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/about/5.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/about/550x650.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/about/back_image.jpg">
+      <publishTime>08/20/2020 11:31:11</publishTime>
+    </File>
+    <File Include="img/about/books.png">
+      <publishTime>08/21/2020 00:13:29</publishTime>
+    </File>
+    <File Include="img/about/degree.jpg">
+      <publishTime>08/21/2020 00:13:30</publishTime>
+    </File>
+    <File Include="img/about/football.png">
+      <publishTime>08/21/2020 00:13:30</publishTime>
+    </File>
+    <File Include="img/about/karate.png">
+      <publishTime>08/21/2020 00:13:30</publishTime>
+    </File>
+    <File Include="img/about/me.jpg">
+      <publishTime>08/20/2020 11:37:42</publishTime>
+    </File>
+    <File Include="img/about/myphoto.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/about/origami.png">
+      <publishTime>08/21/2020 00:13:30</publishTime>
+    </File>
+    <File Include="img/about/painting.png">
+      <publishTime>08/21/2020 00:13:30</publishTime>
+    </File>
+    <File Include="img/about/profilePhoto.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/about/profile_pic.jfif">
+      <publishTime>08/20/2020 11:31:11</publishTime>
+    </File>
+    <File Include="img/about/puzzle.png">
+      <publishTime>08/21/2020 00:13:30</publishTime>
+    </File>
+    <File Include="img/about/school.jpg">
+      <publishTime>08/21/2020 00:13:28</publishTime>
+    </File>
+    <File Include="img/about/school.png">
+      <publishTime>08/21/2020 00:13:29</publishTime>
+    </File>
+    <File Include="img/about/slideshow.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/about/wallpaper.jpg">
+      <publishTime>08/21/2020 00:13:29</publishTime>
+    </File>
+    <File Include="img/blog/1.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/blog/2.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/blog/3.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/blog/500x350.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/blog/inspiration.png">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/hero/1.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/logo/logo.png">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/logo/logoo.png">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/portfolio/1.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/portfolio/2.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/portfolio/3.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/portfolio/4.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/portfolio/5.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/portfolio/6.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/portfolio/600x600.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/portfolio/600x850.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/portfolio/buddy.jpg">
+      <publishTime>08/21/2020 00:43:15</publishTime>
+    </File>
+    <File Include="img/portfolio/buddy.png">
+      <publishTime>08/21/2020 00:46:01</publishTime>
+    </File>
+    <File Include="img/portfolio/lunch.jpg">
+      <publishTime>08/21/2020 00:43:15</publishTime>
+    </File>
+    <File Include="img/portfolio/mainphoto.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/portfolio/project1.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/portfolio/project2.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/portfolio/project3.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/portfolio/project4.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/portfolio/project5.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/portfolio/project5.png">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/portfolio/project6.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/portfolio/travel.jpg">
+      <publishTime>08/21/2020 00:35:38</publishTime>
+    </File>
+    <File Include="img/svg/adobe-illustrator.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/avatar.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/background.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/blog.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/camera-diaphragm.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/customer-support.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/edit-pencil-symbol.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/envelope.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/fire.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/github.png">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/google-glass-logo.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/html.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/icon.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/icon1.png">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/icon2.png">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/icon3.jpg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/identification.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/inspiration.png">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/instagram.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/layers.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/linkedin.png">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/new-tab.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/phone-call.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/placeholder.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/responsive-design-symbol.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/safari-logo.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/seo-performance-marketing-graphic.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/share.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/small-rocket-ship-silhouette.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/speedometer.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/spider-web.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/telegram.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/telephone.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/web-page-home.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="img/svg/whatsapp.svg">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="js/init.js">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="js/jquery.js">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="js/modernizr.custom.js">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="js/plugins.js">
+      <publishTime>08/20/2020 11:23:28</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/30/2022 02:04:07</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
